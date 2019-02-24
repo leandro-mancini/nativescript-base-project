@@ -4,9 +4,12 @@ import { NativeScriptCommonModule } from 'nativescript-angular/common';
 import { AppRoutingModule } from '../app-routing.module';
 import { LoginModule } from './login/login.module';
 import { HomeModule } from './home/home.module';
+import { BaseComponent } from '../core/base/base.component';
 
 @NgModule({
-  declarations: [],
+  declarations: [
+    BaseComponent
+  ],
   imports: [
     NativeScriptCommonModule,
     LoginModule,
