@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
-import { Routes, RouterModule } from '@angular/router';
+import { Routes } from '@angular/router';
+import { NativeScriptRouterModule } from "nativescript-angular/router";
 import { HomeComponent } from './home.component';
 import { Route } from '~/app/core/route.service';
 
@@ -11,8 +12,8 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  imports: [RouterModule.forChild(routes)],
-  exports: [RouterModule],
+  imports: [NativeScriptRouterModule.forChild(routes)],
+  exports: [NativeScriptRouterModule],
   providers: []
 })
 export class HomeRoutingModule { }
