@@ -5,6 +5,10 @@ import { AppRoutingModule } from "./app-routing.module";
 import { AppComponent } from "./app.component";
 import { ItemsComponent } from "./item/items.component";
 import { ItemDetailComponent } from "./item/item-detail.component";
+import { CoreModule } from "./core/core.module";
+import { PagesModule } from "./pages/pages.module";
+import { SharedModule } from "./shared/shared.module";
+import { LoginComponent } from "./pages/login/login.component";
 
 // Uncomment and add to NgModule imports if you need to use two-way binding
 // import { NativeScriptFormsModule } from "nativescript-angular/forms";
@@ -18,12 +22,14 @@ import { ItemDetailComponent } from "./item/item-detail.component";
     ],
     imports: [
         NativeScriptModule,
+        CoreModule,
+        PagesModule,
+        SharedModule,
         AppRoutingModule
     ],
     declarations: [
         AppComponent,
-        ItemsComponent,
-        ItemDetailComponent
+        LoginComponent
     ],
     providers: [],
     schemas: [
