@@ -1,0 +1,82 @@
+.btn-menu {
+    padding: 10;
+    margin: 0 0 0 26;
+}
+
+.px-side-drawer {
+    background-color: #FEFEFE;
+}
+
+.px-side-drawer .btn-fechar {
+    padding: 16 20;
+    border-radius: 100%;
+}
+
+.px-side-drawer .user {
+    border-bottom-width: 1;
+    border-bottom-style: solid;
+    border-bottom-color: rgba(83, 86, 105, 0.1);
+}
+
+.px-side-drawer .user .user-content {
+    margin: 26 30 34;
+}
+
+.px-side-drawer .user .user-image {
+    width: 68;
+    height: 68;
+    border-width: 2;
+    border-style: solid;
+    border-color: #CAD0DC;
+    border-radius: 100%;
+    background-color: #fff;
+    margin-right: 10;
+}
+
+.px-side-drawer .user .user-image Image {
+    border-radius: 100%;
+}
+
+.px-side-drawer .user .user-infos {
+    padding: 10 0;
+}
+
+.px-side-drawer .user .user-infos Image {
+    margin-right: 8;
+}
+
+.px-side-drawer .user .user-infos .bold,
+.px-side-drawer .user .user-infos .regular {
+    font-size: 16;
+}
+
+.px-side-drawer .user .user-infos .bold {
+    color: #707070;
+}
+
+.px-side-drawer .user .user-infos .regular {
+    color: #C2C2C2;
+    font-size: 16;
+}
+
+.px-side-drawer .user .user-icon {
+    align-items: center;
+}
+
+.px-side-drawer .px-button {
+    color: #535669;
+    font-size: 26;
+    text-align: left;
+    margin: 0;
+    text-transform: capitalize;
+    background-color: #fff;
+    border-radius: 1;
+    padding: 0 10 0 30;
+}
+
+.px-side-drawer .logout {
+    border-top-width: 1;
+    border-top-style: solid;
+    border-top-color: rgba(83, 86, 105, 0.1);
+}
+
