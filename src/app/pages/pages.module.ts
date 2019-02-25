@@ -1,5 +1,6 @@
 import { NgModule, NO_ERRORS_SCHEMA } from '@angular/core';
 import { NativeScriptCommonModule } from 'nativescript-angular/common';
+import { ReactiveFormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from '../app-routing.module';
 import { LoginModule } from './login/login.module';
@@ -12,6 +13,7 @@ import { BaseComponent } from '../core/base/base.component';
   ],
   imports: [
     NativeScriptCommonModule,
+    ReactiveFormsModule,
     LoginModule,
     HomeModule,
     AppRoutingModule
