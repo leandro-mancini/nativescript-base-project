@@ -38,11 +38,6 @@ export class LoginComponent implements OnInit {
   }
 
   entrar() {
-    console.log('Entrar');
-
-    console.log(this.myForm.value);
-    console.log(this.myForm.valid);
-
     if (this.myForm.valid) {
       // Inserir o serviço de API
 

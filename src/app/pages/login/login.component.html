@@ -6,6 +6,8 @@
             <TextField formControlName="email" keyboardType="email" hint="E-mail"></TextField>
             <TextField formControlName="senha" secure="true" hint="Senha"></TextField>
             <Button text="Entrar" (tap)="entrar()"></Button>
+
+            {{myForm.value}}
         </StackLayout>
     </StackLayout>
     
