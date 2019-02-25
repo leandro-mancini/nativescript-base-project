@@ -1,0 +1,20 @@
+<FlexboxLayout class="page">
+	<StackLayout class="content">
+        <Label class="h2" text="Entrar"></Label>
+
+        <StackLayout [formGroup]="myForm">
+            <TextField formControlName="email" keyboardType="email" hint="E-mail"></TextField>
+            <TextField formControlName="senha" secure="true" hint="Senha"></TextField>
+            <Button text="Entrar" (tap)="entrar()"></Button>
+
+            {{myForm.value}}
+        </StackLayout>
+    </StackLayout>
+    
+    <Label (tap)="cadastrar()">
+        <FormattedString>
+            <Span text="Não tem uma conta? "></Span>
+            <Span text="Cadastre-se"></Span>
+        </FormattedString>
+    </Label>
+</FlexboxLayout>

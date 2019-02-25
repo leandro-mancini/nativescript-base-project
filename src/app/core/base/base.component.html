@@ -1,0 +1,12 @@
+<ActionBar title="App">
+    <NavigationButton icon="res://baseline_menu_black_24" (tap)="openMenu()"></NavigationButton>
+</ActionBar>
+
+<RadSideDrawer tkExampleTitle tkToggleNavButton>
+    <FlexboxLayout flexDirection="column" tkDrawerContent class="px-side-drawer">
+        <Button text="Fechar"></Button>
+    </FlexboxLayout>
+    <StackLayout tkMainContent>
+        <page-router-outlet></page-router-outlet>
+    </StackLayout>
+</RadSideDrawer>
